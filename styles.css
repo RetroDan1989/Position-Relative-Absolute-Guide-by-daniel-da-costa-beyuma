@@ -135,6 +135,8 @@ body{
 
     text-align: center;
 
+    max-width: 400px;
+
 }
 
 .image-container p {
@@ -221,13 +223,80 @@ img {
 }
 /* card-08 final */
 
-/* card-08 start */
+/* card-09 start */
 .div-09 {
     top: 50%;
     left: calc(100% + 0px);
     transform: translate(0%,-50%);
 }
-/* card-08 final */
+/* card-09 final */
+
+/* card-10 start */
+.div-10 {
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+/* card-10 final */
+
+/* card-11 start */
+.div-11 {
+    top: 0;
+    right: 0;
+    transform: translate(50%,-50%);
+}
+/* card-11 final */
+
+/* card-12 start */
+.div-12 {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%,50%);
+}
+/* card-12 final */
+
+/* card-13 start */
+.info-13 {
+    padding-top: 35px;
+}
+.div-13 {
+    bottom: 0;
+    right: 0;
+    transform: translate(50%,50%);
+}
+/* card-13 final */
+
+/* card-14 start */
+.div-14 {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* card-14 final */
+
+/* card-15 start */
+.div-15 {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+/* card-15 final */
+
+/* card-16 start */
+.div-16 {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+/* card-16 final */
+
+/* card-17 start */
+.div-17 {
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+}
+/* card-17 final */
 
 
 /* Valores de las tarjetas final */
