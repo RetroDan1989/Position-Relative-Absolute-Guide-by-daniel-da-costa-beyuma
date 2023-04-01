@@ -1,0 +1,235 @@
+/* _________________________________________________ */
+
+/* Reset and Default  start */
+*,*::before,*::after {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Reset and Default  final */
+
+/* _________________________________________________ */
+
+
+/* _________________________________________________ */
+
+/* Variables start */
+:root {
+    --Selector_color:#fff;
+    --Keys_color:#ffffff;
+    --Property-color:hsl(29, 100%, 68%);
+    --Value_color:hsl(190, 100%, 69%);
+    --container_color:#fff;
+
+--green: hsl(158, 36%, 37%);
+--cream: hsl(30, 38%, 92%);
+--dark-grey-txt: hsl(228, 12%, 48%);
+--white: hsl(0, 0%, 100%);
+--dark-blue: hsl(212, 21%, 14%);
+}
+/* Variables final */
+
+/* _________________________________________________ */
+
+/* _________________________________________________ */
+
+/* Colors control  start */
+.selector { color:var(--dark-blue)}
+.property { color:var(--dark-grey-txt)}
+.value { color:var(--dark-blue)}
+.keys { color:var(--dark-blue)}
+/* Colors control  final */
+
+/* _________________________________________________ */
+
+
+/* _________________________________________________ */
+
+/* Main styles start */
+body{
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: var(--cream);
+
+    font-family: 'Fraunces', serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.container {
+    background-color: var(--green);
+    height: 125px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,1);
+    border-radius: 5px 5px 0px 0px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--white);
+}
+
+.div {
+    background-color:var(--dark-grey-txt);
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+
+    position: absolute;
+
+    color: var(--white);
+}
+
+.info {
+    padding: 15px;
+    background-color:var(--white);
+    border-radius: 0px 0px 5px 5px;
+
+    height: 215px;
+
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.6);
+
+
+}
+
+.selector, .keys {
+    font-weight: 600;
+}
+
+.property, .value {
+    font-weight: 300;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+
+    color: var(--dark-blue);
+
+    text-align: center;
+
+}
+
+.image-container p {
+    padding:0px 20px;
+}
+
+img {
+    width: 75%;
+    border: 1px solid black;
+}
+
+
+/* Main styles final */
+
+/* _________________________________________________ */
+
+
+/* _________________________________________________ */
+/* Valores de las tarjetas start */
+
+.container-01 {
+    display: block;
+}
+/* card-01 start */
+.div-01 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* card-01 final */
+
+/* card-02 start */
+.div-02 {
+    top: 0;
+    left: 0;
+}
+/* card-02 final */
+
+/* card-03 start */
+.div-03 {
+    top: 0;
+    right: 0;
+}
+/* card-03 final */
+
+/* card-04 start */
+.div-04 {
+    bottom: 0;
+    left: 0;
+}
+/* card-04 final */
+
+/* card-05 start */
+.div-05 {
+    bottom: 0;
+    right: 0;
+}
+/* card-05 final */
+
+/* card-06 start */
+.div-06 {
+    left: 50%;
+    bottom: calc(100% + 0px);
+    transform: translate(-50%,0);
+}
+/* card-06 final */
+
+/* card-07 start */
+.info-07 {
+    padding-top: 50px;
+}
+.div-07 {
+    left: 50%;
+    top: calc(100% + 0px);
+    transform: translate(-50%,0%);
+}
+/* card-07 final */
+
+/* card-08 start */
+.div-08 {
+    top: 50%;
+    right: calc(100% + 0px);
+    transform: translate(0%,-50%);
+}
+/* card-08 final */
+
+/* card-08 start */
+.div-09 {
+    top: 50%;
+    left: calc(100% + 0px);
+    transform: translate(0%,-50%);
+}
+/* card-08 final */
+
+
+/* Valores de las tarjetas final */
+/* _________________________________________________ */
+
